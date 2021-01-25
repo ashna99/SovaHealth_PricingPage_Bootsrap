@@ -1,0 +1,11 @@
+navbar: mainly responsible for responsive design as flex-wrap property is set to wrap which adjusts items in multiple lines in account with viewport width and arranges acc to flex-direction also includes align-items which aligns itmes along vertical axis
+ fixed-top: always remain at top even when page is scrolled and nees to be added padding and margins as per req and not to collide with other elements as well adds z index around 1000 and to align any element below this navbar we have to explicitly set top-padding of elements
+ nav-bar-brand: text-decoration:none and with proper padding
+ nav-link set padding to 0
+ navbar a: is set to default color
+ changed default property justify-content to flex-start
+ By adding .text-nowrap class it disables wrapping i.e. aligning text content in multiple lines and add .btn class to a to inherit all atributes defined for button
+ d-none: sets display attribute none
+ d-md-block sets display:block for screens >=middle size
+ d-none d-md-block sets display attribute none for screens smaller than middle size and block for screens>= middle size
+ d-md-none sets display attribute none for screen size>=md

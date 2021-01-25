@@ -1,0 +1,146 @@
+#body{
+    z-index:1;
+    overflow-y: scroll;
+}
+#navbar{
+    background-color:#29385c;
+}
+#signUp{
+    background-color:#29385c;
+    width:8rem;
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar a{
+    color:white;
+    font-size: 0.8rem;
+}
+.rounded-3 {
+    border-radius: 1.5rem!important
+}
+#getStarted{
+    background-color:rgba(252, 53, 53,0.95);
+    width: 150px;
+}
+#icon-desc{
+  color:white;
+  font-weight: 600;
+}
+#icon-desc img{
+ position: relative;
+ left:-0.75rem;
+}
+  @media (max-width:768px){
+
+    .d-sm-end{
+         float: right!important;
+         
+      }
+      #toggle-navbar{
+        
+        margin:0px;
+        height:80vh;
+        width:0px;      
+        z-index:3;
+        right:0px;
+        position:fixed;
+        background-color: #29385c;
+        overflow-x: hidden;  
+        transition: 0.5s; 
+      }
+   
+     
+      #getStarted{
+        display: none;
+    }
+    #navbar section{
+        width:100%;
+    }
+      
+  }
+  #Pricing-Plans .row{
+      font-size: 0.7rem;
+      /* width:auto; */
+      /* flex: 1 1 auto; */
+      margin:0px;
+  max-width: 768px;
+    background-color:#29385c;
+    /* color:white; */
+  }
+
+  #Pricing-Plans img{
+    width:1.5rem;
+   
+  }
+
+ #price .row, #plan-utilities .row{
+    max-width:768px ;
+    /* min-width: 760px; */
+}
+#price .col{
+  padding: 0%;
+  display:flex;
+  justify-content: center;
+}
+#price{
+    font-size: 0.7rem;
+    color:white;
+    font-weight: 500;
+}
+
+.col-6{
+    background-color: #29385c;
+    color:white;
+}
+
+#plan-utilities {
+  font-size: 0.7rem;
+  border: 5px solid rgba(226, 219, 219, 0.5 );
+  border-radius: 20px;
+}
+#plan-utilities h5{
+   font-weight: bolder;
+}
+#plan-utilities p.ps-2{
+   font-weight: bolder;
+   font-family:Arial ;
+}
+.accordion-button{
+  color:white;
+  background-color:#29385c;
+ 
+}
+.accordion-button:not(.collapsed) {
+  color:white;
+  background-color:#29385c;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border:none;
+  outline: 0;
+  box-shadow:none;
+}
+.accordion-body{
+  color:white;
+  font-size: small;
+}
+.accordion-header{
+  border-bottom: 1px solid lightgray;
+}
+
+#bottom-card{
+
+  border-top:1px solid lightgray;
+}
+#email-submit {
+  background-color:#29385c;
+  border-radius: 1rem;
+  width:5rem;
+  text-align: center;
+}
+#email-submit a{
+color:white;  
+text-decoration: none;
+
+}
